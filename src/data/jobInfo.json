@@ -1,0 +1,29 @@
+{
+  "info": "查询成功",
+  "status": "y",
+  "data": {
+    "id": 1,
+    "name": "PHP实习生",
+    "logo": "https://panan.oss-cn-hangzhou.aliyuncs.com/jiangnan/001ARnVnzy7gm0zcJzr99.jpg",
+    "industry": "行业",
+    "mien": "企业风采",
+    "profile": "企业简介",
+    "address": "蒋村商务中心",
+    "contact": "0571-565895632",
+    "type": "1",
+    "status": "0",
+    "companyName": "杭州风鼎科技",
+    "companyId": 2,
+    "label": "世界知名企业",
+    "postCount": 6,
+    "workDays": "每周至少5天",
+    "internship": "至少3个月",
+    "function": "IT",
+    "city": "北京",
+    "duties": "指责内容",
+    "requirement": "岗位i要求",
+    "price": "50元/天",
+    "time": "2019年01月25日"
+  },
+  "count": 0
+}

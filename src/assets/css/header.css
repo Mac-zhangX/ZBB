@@ -1,0 +1,249 @@
+@charset "UTF-8";
+
+a{
+    text-decoration: none !important;
+    color: #FFF !important;
+}
+.menu-nav{
+    background-color: #5191E5;
+    height: .6rem;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 9989;
+}
+.logo-box{
+    height: 100%;
+    float: left;
+}
+.logo-box>a{
+    height: 100%;
+}
+.logo-box img{
+    max-width: 100%;
+    max-height: 100%;
+}
+.container{
+    height: 100%;
+    padding: 0;
+}
+.menu-item>li>a{
+    color: #FFF;
+}
+.toggle-box{
+    display: none;
+    float: right;
+    height: 100%;
+    padding: .16rem 0 .16rem .1rem;
+    color: #FFF;
+}
+.user-action{
+    float: right;
+    height: 100%;
+}
+.menu-box{
+    float: left;
+    height: 100%;
+}
+.menu-item>li{
+    display: inline-block;
+}
+.m-nav{
+    position: fixed;
+    top: .6rem;
+    background: #5191E5;
+    width: 100%;
+    z-index: 9999 !important;
+    padding-bottom: .2rem;
+}
+.m-nav li{
+
+    font-size: .2rem;
+    padding: .1rem 0;
+}
+.m-nav li>a{
+    height: .28rem;
+    line-height: .28rem;
+}
+.active{
+    padding: .14rem 0 .12rem 0 !important;
+    font-weight: bold;
+    border-bottom: 2px solid #FFF;
+}
+.user-info>img{
+    border-radius: 50%;
+    margin-right: .1rem;
+}
+.user-info{
+    font-size: .14rem;
+}
+@media (min-width: 1200px) {
+    .container{
+        width: 12rem;
+    }
+    .logo-box{
+        width: 1.05rem;
+    }
+    .logo-box img{
+        margin-top: .11rem;
+    }
+    .menu-item{
+        height: 100%;
+        margin-left: .03rem;
+        text-align: left;
+    }
+    .menu-item>li{
+        margin: 0 .2rem;
+        height: 100%;
+    }
+    .menu-active{
+
+        padding: .14rem 0;
+        border-bottom: .02rem solid #FFF;
+        font-weight: bold;
+    }
+    .menu-item>li>a{
+        font-size: 0.18rem;
+        padding: .16rem 0;
+        line-height: .28rem;
+        display: block;
+    }
+    .user-action a{
+        margin-top: .1rem;
+        font-size: .18rem;
+        display: inline-block;
+        height: .4rem;
+        line-height: .4rem;
+    }
+    .menu-box{
+        /*width: 10rem;*/
+    }
+    .user-action{
+        /*width: .95rem;*/
+    }
+}
+@media (min-width: 992px) and (max-width: 1200px){
+    .container{
+        width: 9.92rem;
+    }
+    .logo-box{
+        width: 1.05rem;
+    }
+    .logo-box img{
+        margin-top: .11rem;
+    }
+    .menu-item{
+        height: 100%;
+        margin-left: .03rem;
+        text-align: left;
+    }
+    .menu-item>li{
+        display: inline-block;
+        height: 100%;
+        margin: 0 .12rem;
+    }
+    .menu-active{
+
+        padding: .14rem 0;
+        border-bottom: .02rem solid #FFF;
+        font-weight: bold;
+    }
+
+    .menu-item>li>a{
+        font-size: .16rem;
+        padding: .16rem 0;
+        line-height: .28rem;
+        display: block;
+    }
+
+    .user-action a{
+        margin-top: .1rem;
+        font-size: .14rem;
+        display: inline-block;
+        height: .4rem;
+        line-height: .4rem;
+    }
+    .menu-box{
+        /*width: 8rem;*/
+    }
+    .user-action{
+        /*width: .87rem;*/
+    }
+}
+@media (min-width: 767px) and (max-width: 992px){
+    .container{
+        width: 7.68rem;
+    }
+    .logo-box{
+        width: 1.05rem;
+    }
+    .logo-box img{
+        margin-top: .11rem;
+    }
+    .menu-item{
+        height: 100%;
+        margin-left: .03rem;
+        text-align: left;
+    }
+    .menu-item>li{
+        display: inline-block;
+        height: 100%;
+        margin: 0 .05rem;
+    }
+    .menu-active{
+
+        padding: .14rem 0;
+        border-bottom: .02rem solid #FFF;
+        font-weight: bold;
+    }
+    .menu-item>li>a{
+        font-size: .12rem;
+        line-height: .28rem;
+        padding: .16rem 0;
+        display: block;
+    }
+    .user-action a{
+        margin-top: .1rem;
+        font-size: .12rem;
+        display: inline-block;
+        height: .4rem;
+        line-height: .4rem;
+    }
+    .menu-box{
+        /*width: 6rem;*/
+    }
+    .user-action{
+        /*width: .63rem;*/
+    }
+
+}
+@media (max-width: 767px) {
+    .toggle-box{
+        display: inline-block;
+    }
+    .menu-box{
+        display: none;
+    }
+    .container{
+        padding: 0 .2rem;
+    }
+    .logo-box{
+        width: 1.05rem;
+    }
+    .logo-box img{
+        margin-top: .11rem;
+    }
+    .user-action a{
+        margin-top: .1rem;
+        font-size: .16rem;
+        display: inline-block;
+        height: .4rem;
+        line-height: .4rem;
+    }
+    .user-action{
+        width: 1rem;
+    }
+    .user-info span{
+        display: none;
+    }
+}

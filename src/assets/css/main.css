@@ -1,0 +1,74 @@
+html,body { font-family: myFont, sans-serif; }
+
+.flex-box-between{
+    display: -webkit-flex;
+    display: flex;
+    -webkit-justify-content: space-between;
+    justify-content: space-between;
+    -webkit-flex-wrap: wrap;
+    flex-wrap: wrap;
+}
+.flex-box-center{
+    display: -webkit-flex;
+    display: flex;
+    -webkit-justify-content: center;
+    justify-content: center;
+    align-items: center;
+    -webkit-flex-wrap: wrap;
+    flex-wrap: wrap;
+}
+.flex-box-around{
+    display: -webkit-flex;
+    display: flex;
+    -webkit-justify-content: space-around;
+    justify-content: space-around;
+    -webkit-flex-wrap: wrap;
+    flex-wrap: wrap;
+}
+.center-box{
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    -o-transform: translateX(-50%);
+    -ms-transform: translateX(-50%);
+    -moz-transform: translateX(-50%);
+    -webkit-transform: translateX(-50%);
+}
+.middle-container{
+    margin: 0 auto;
+}
+img{
+    max-height: 100%;
+    max-width: 100%;
+}
+@media (min-width: 1200px) {
+    .middle-container{
+        width: 12rem;
+    }
+}
+@media (min-width: 992px) and (max-width: 1200px){
+    .middle-container{
+        width: 9.92rem;
+    }
+}
+@media (min-width: 768px) and (max-width: 991px){
+    .middle-container{
+        width: 7.68rem;
+    }
+}
+@media (max-width: 767px) {
+    .middle-container{
+        padding: 0 .2rem;
+        width: 100%;
+    }
+}
+
+.Regular {
+    font-family: pingFangSC-Regular;
+}
+.Light {
+    font-family: PingFangSC-Light;
+}
+.GBK {
+    font-family: FZZJ-PSBKSJW;
+}
